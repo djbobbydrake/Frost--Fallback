@@ -1,0 +1,27 @@
+{
+  "name": "Frost--Fallback",
+  "version": "1.0.0",
+  "homepage": "https://github.com/Itrulia/Frost--Fallback",
+  "authors": [
+    "Karl Merkli <info@karl-merkli.ch>"
+  ],
+  "description": "Fallback library written in sass",
+  "main": "_frost--fallback.scss",
+  "keywords": [
+    "fallback",
+    "itrulia",
+    "sass",
+    "frost"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "frost--unit": "*"
+  }
+}
