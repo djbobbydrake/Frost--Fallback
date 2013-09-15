@@ -1,4 +1,4 @@
-$basefontsize = 16 !default; // in px
+$basefontsize: 16 !default; // in px
 
 @mixin rem-fallback($property, $values...) {
 	$pxValues: '';
