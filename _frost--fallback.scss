@@ -6,8 +6,8 @@ $basefontsize: 16 !default; // in px
 
 	@for $i from 1 through length($values) {
 		$value: strip-unit(nth($values, $i));
-		$pxValues: #{$pxValues + $value * $basefontsize}px;
-		$remValues: #{$remValues + $value}rem;
+		$pxValues: #{$pxValues + px($value)};
+		$remValues: #{$remValues + rem($value)};
 
 		@if $i < length($values){
 			$pxValues: #{$pxValues + " "};
